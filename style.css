@@ -1,0 +1,54 @@
+/* Estilo geral para a página inteira */
+body {
+    background-color: #121212; /* Um fundo cinza bem escuro */
+    color: #ffffff; /* Cor do texto principal: branco */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o nosso container principal */
+.container {
+    max-width: 600px; /* Largura máxima do conteúdo */
+    margin: 50px auto; /* Centraliza o container na página */
+    text-align: center; /* Centraliza todo o texto dentro do container */
+    padding: 20px;
+}
+
+/* Estilo para a imagem de perfil */
+img {
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+    border-radius: 50%; /* Isso deixa a imagem perfeitamente redonda */
+    border: 5px solid #ffffff; /* Adiciona uma borda branca */
+    object-fit: cover; /* Garante que a foto não fique distorcida */
+}
+
+/* Estilo para o nome (título principal) */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a descrição */
+p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* Estilo para os nossos links (a mágica acontece aqui) */
+.links a {
+    display: block; /* Faz o link ocupar a linha inteira, virando um "bloco" */
+    background-color: #333333; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    padding: 15px; /* Espaçamento interno do botão */
+    margin: 10px 0; /* Espaçamento entre os botões */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    border-radius: 5px; /* Deixa as bordas do botão arredondadas */
+    transition: background-color 0.3s; /* Efeito suave na mudança de cor */
+}
+
+/* Efeito ao passar o mouse por cima dos links */
+.links a:hover {
+    background-color: #555555; /* Cor do botão quando o mouse está em cima */
+}
