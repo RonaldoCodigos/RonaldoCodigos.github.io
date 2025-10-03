@@ -52,3 +52,44 @@ p {
 .links a:hover {
     background-color: #555555; /* Cor do botão quando o mouse está em cima */
 }
+
+/* ======================== */
+/* ESTILOS PARA O MODO CLARO */
+/* ======================== */
+
+/* Estas regras só se aplicam quando o body tiver a classe light-mode */
+body.light-mode {
+    background-color: #f0f0f0; /* Fundo cinza claro */
+    color: #121212; /* Texto preto */
+}
+
+body.light-mode img {
+    border-color: #121212; /* Borda preta na imagem */
+}
+
+body.light-mode .links a {
+    background-color: #ffffff; /* Botões brancos */
+    color: #121212; /* Texto do botão preto */
+    border: 1px solid #dddddd; /* Adiciona uma borda sutil */
+}
+
+body.light-mode .links a:hover {
+    background-color: #f0f0f0; /* Efeito hover mais claro */
+}
+
+
+/* Estilo para o nosso botão de tema */
+#theme-toggle {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" */
+    margin-top: 20px;
+}
+
+body.light-mode #theme-toggle {
+    background-color: #e0e0e0;
+    color: #121212;
+}
