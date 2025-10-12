@@ -28,16 +28,3 @@
 
 ## 🔗 Link para o Projeto
 Você pode acessar a página ao vivo aqui: **[https://ronaldocodigos.github.io/](https://ronaldocodigos.github.io/)**
-
-#### 🚀 Meus Principais Projetos
-
-- 📄 **[Currículo Online Interativo](https://ronaldocodigos.github.io/curriculo-web/)**: Meu currículo profissional completo, desenvolvido como uma página web responsiva.
-- 🌦️ **[App de Previsão do Tempo](https://RonaldoCodigos.github.io/app-clima/)**: ...
-- 📬 **[Buscador de CEP](https://RonaldoCodigos.github.io/buscador-cep/)**: ...
-- 🔗 **[Página de Links Pessoais](https://ronaldocodigos.github.io/)**: ...
-
-<div class="links">
-    <a href="https://ronaldocodigos.github.io/curriculo-web/" target="_blank">📄 Currículo Online</a>
-    <a href="https://www.linkedin.com/in/ronaldo-brazier-junior" target="_blank">LinkedIn</a>
-    ...
-</div>
